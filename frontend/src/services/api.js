@@ -1,5 +1,4 @@
-const API_BASE = 'http://localhost:3001/api';
-
+const API_BASE = 'https://ignyte.onrender.com/api';
 async function fetchJSON(url, options = {}) {
   const res = await fetch(`${API_BASE}${url}`, {
     headers: { 'Content-Type': 'application/json' },
