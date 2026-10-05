@@ -3,3 +3,4 @@ Sixer_IGNYT_Gamified_Implementation_Plan.pdf
 .DS_Store
 dist/
 build/
+backend/.env
